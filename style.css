@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Pics/013.gif);
+    background-size: contain;
+}
+table{
+    margin: auto;
+    color: greenyellow;
+}
+.title{
+    font-size: 60px; 
+    border-radius: 45px; 
+    height: 95px; 
+    font-weight: bold; 
+    color: rgb(248, 103, 6); 
+    background-color: rgb(42, 247, 15);
+}
+.title:hover{
+    background-color: rgb(227, 252, 6);
+    color: rgb(255, 0, 212);
+    font-size: 75px;
+}
+.pic{
+    width: 155px; 
+    height: 130px; 
+    float: right; 
+    margin-right: 26px; 
+    border: 2px solid green; 
+    border-radius: 15px;
+}
+.move{
+    color: rgb(247, 246, 244);
+    background-color: rgb(8, 162, 252);
+}
+.move:hover{
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 0, 55);
+    font-size: 45px;
+}
+img{
+    transition: transform 0.5s;
+}
+img:hover{
+    transform: scale(2.3);
+}
+.btn{
+    float: right;
+    width: 102px;
+    height: 27px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 35px;
+    margin-top: 4px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
+.btn:hover{
+    background-color: chocolate;
+    color: cyan;
+    font-size: 22px;
+    width: 122px;
+}
